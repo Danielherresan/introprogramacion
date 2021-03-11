@@ -54,6 +54,7 @@ while (numeroIngresado != numeroOculto and vidas>1):
     vidas -=1
     print (f'te quedan {vidas} vidas')
     numeroIngresado =int(input(PREGUNTAR_FALLIDA))
+    
 if (vidas >= 0 and numeroIngresado == numeroOculto):
     print (MENSAJE_SEGUNDO_NIVEL)
     numeroIngresado = int (input(PREGUNTAR_NUMERO))
