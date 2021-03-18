@@ -31,7 +31,7 @@ listaPesos = [20000,30000,4000,2500,1000,7600]
 listaEuros = []
 for elemento in listaPesos:
     conversor = round (elemento*0.00023,2)
-    listaEuros.append(conversor)
+    listaEz)
 listaDolares = []
 for elemento in listaPesos:
     conversor = round (elemento*0.00028,2)
