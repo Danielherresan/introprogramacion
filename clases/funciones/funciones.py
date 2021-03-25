@@ -7,6 +7,10 @@ def sumar (a = 0, b = 0):
     suma = a + b
     return suma
 
+def linedesign(cantidad = 10, simbolo = '#'):
+    print(simbolo *cantidad)
+    return None
+
 #----------Restar dos números -----------#
 def restar (a = 0, b = 0):
     resta = a - b
@@ -26,3 +30,11 @@ def potenciar (base = 0, exponente = 1):
 #----------funciones dependientes de otras -----------#
 def calcular (operacion, numeroA, numeroB):
     print(operacion(numeroA,numeroB))
+
+def mostrarLista(lista):
+    for elemento in lista:
+        print(elemento)
+
+def mostrar2Lista(lista1, lista2):
+    for i in range(len(lista1)):
+        print(lista1[i],'\t',lista2[i])
