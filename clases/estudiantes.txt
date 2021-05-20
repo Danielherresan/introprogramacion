@@ -1,0 +1,7 @@
+Archivo de datos de estudiantes
+nombre:Daniel edad: 27 estatura: 1.67
+nombre:Aleja edad: 19 estatura: 1.72
+nombre:Elsa edad: 21 estatura: 1.73
+nombre:Samuel edad: 19 estatura: 1.76
+nombre:k edad: 2 estatura: 2.0
+nombre:sd edad: 2 estatura: 2.0
